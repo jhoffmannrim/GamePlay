@@ -172,7 +172,7 @@ void AnimationChannel::removeDuplicates()
         }
     }
 
-    LOG(3, "      Removed %d duplicate keyframes from channel.\n", startCount- _keytimes.size());
+    LOG(3, "      Removed %ud duplicate keyframes from channel.\n", startCount- _keytimes.size());
 }
 
 unsigned int AnimationChannel::getInterpolationType(const char* str)

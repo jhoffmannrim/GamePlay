@@ -140,7 +140,7 @@ VertexAttributeBinding* VertexAttributeBinding::create(Mesh* mesh, const VertexF
 
     // Call setVertexAttribPointer for each vertex element.
     std::string name;
-    unsigned int offset = 0;
+    uintptr_t offset = 0;
     for (unsigned int i = 0, count = vertexFormat.getElementCount(); i < count; ++i)
     {
         const VertexFormat::Element& e = vertexFormat.getElement(i);
