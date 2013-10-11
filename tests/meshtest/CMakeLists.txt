@@ -101,7 +101,7 @@ include_directories(
 append_gameplay_lib(GAMEPLAY_LIBRARIES)
 append_gameplay_ext_lib(GAMEPLAY_LIBRARIES "GLEW" "glew" "glew32")
 append_gameplay_ext_lib(GAMEPLAY_LIBRARIES "lua" "lua")
-append_gameplay_ext_lib(GAMEPLAY_LIBRARIES "png" "libpng" "libpng16")
+append_gameplay_ext_lib(GAMEPLAY_LIBRARIES "png" "png")
 append_gameplay_ext_lib(GAMEPLAY_LIBRARIES "BulletDynamics" "bullet")
 append_gameplay_ext_lib(GAMEPLAY_LIBRARIES "BulletCollision" "bullet")
 append_gameplay_ext_lib(GAMEPLAY_LIBRARIES "LinearMath" "bullet")

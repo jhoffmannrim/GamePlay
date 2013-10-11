@@ -243,3 +243,4 @@ Thumbs.db
 /samples/spaceship/android/local.properties
 /samples/spaceship/sample-spaceship.xcodeproj/xcuserdata
 
+/tests/meshtest/build
